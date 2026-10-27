@@ -19,7 +19,17 @@ Offensive security and privacy enthusiast focused on Linux environments, network
 
 ### Focus & Tooling
 
-```text
-Offensive Security : Nmap • Burp Suite • SQLMap • Hydra • GTFOBins • Metasploit
-Platforms & Systems: Linux (Arch / Debian) • Docker • Bash • Networking • WebSockets
-```
+#### Systems & Environments
+![Linux](https://img.shields.io/badge/Linux-21262d?style=flat&logo=linux&logoColor=FCC624)
+![Arch Linux](https://img.shields.io/badge/Arch_Linux-21262d?style=flat&logo=arch-linux&logoColor=1793D1)
+![Debian](https://img.shields.io/badge/Debian-21262d?style=flat&logo=debian&logoColor=A81D33)
+![Docker](https://img.shields.io/badge/Docker-21262d?style=flat&logo=docker&logoColor=2496ED)
+![Bash](https://img.shields.io/badge/Bash-21262d?style=flat&logo=gnu-bash&logoColor=4EAA25)
+![Python](https://img.shields.io/badge/Python-21262d?style=flat&logo=python&logoColor=3776AB)
+
+#### Offensive Security & Analysis
+![Burp Suite](https://img.shields.io/badge/Burp_Suite-21262d?style=flat&logo=portswigger&logoColor=FF6633)
+![Wireshark](https://img.shields.io/badge/Wireshark-21262d?style=flat&logo=wireshark&logoColor=1679A7)
+![Metasploit](https://img.shields.io/badge/Metasploit-21262d?style=flat&logo=metasploit&logoColor=136497)
+![Nmap](https://img.shields.io/badge/Nmap-21262d?style=flat&logo=gnometerminal&logoColor=58A6FF)
+![WebSockets](https://img.shields.io/badge/WebSockets-21262d?style=flat&logo=socketdotio&logoColor=white)
