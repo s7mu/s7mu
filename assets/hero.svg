@@ -65,30 +65,30 @@
 
     <!-- Subtle technical grid points -->
     <g fill="#30363d" opacity="0.35">
-      <circle cx="550" cy="35" r="1.5" />
-      <circle cx="620" cy="35" r="1.5" />
-      <circle cx="690" cy="35" r="1.5" />
-      <circle cx="760" cy="35" r="1.5" />
-      <circle cx="550" cy="80" r="1.5" />
-      <circle cx="620" cy="80" r="1.5" />
-      <circle cx="690" cy="80" r="1.5" />
-      <circle cx="760" cy="80" r="1.5" />
-      <circle cx="550" cy="125" r="1.5" />
-      <circle cx="620" cy="125" r="1.5" />
-      <circle cx="690" cy="125" r="1.5" />
-      <circle cx="760" cy="125" r="1.5" />
+      <circle cx="630" cy="35" r="1.5" />
+      <circle cx="680" cy="35" r="1.5" />
+      <circle cx="730" cy="35" r="1.5" />
+      <circle cx="780" cy="35" r="1.5" />
+      <circle cx="630" cy="75" r="1.5" />
+      <circle cx="680" cy="75" r="1.5" />
+      <circle cx="730" cy="75" r="1.5" />
+      <circle cx="780" cy="75" r="1.5" />
+      <circle cx="630" cy="115" r="1.5" />
+      <circle cx="680" cy="115" r="1.5" />
+      <circle cx="730" cy="115" r="1.5" />
+      <circle cx="780" cy="115" r="1.5" />
     </g>
 
-    <!-- Subtle circuit / telemetry traces -->
+    <!-- Subtle circuit traces (shifted right to avoid pill collision) -->
     <g stroke="#30363d" stroke-width="1" opacity="0.4" fill="none">
-      <path d="M 650 30 L 730 30 L 750 50 L 810 50" />
-      <path d="M 600 165 L 670 165 L 690 190 L 780 190" />
+      <path d="M 670 30 L 730 30 L 750 50 L 810 50" />
+      <path d="M 650 170 L 690 170 L 712 192 L 795 192" />
       <circle cx="810" cy="50" r="2.5" fill="#58a6ff" />
-      <circle cx="600" cy="165" r="2.5" fill="#39d353" />
+      <circle cx="650" cy="170" r="2.5" fill="#39d353" />
     </g>
 
-    <!-- Telemetry Label safely positioned well above the line -->
-    <text x="800" y="172" fill="#484f58" font-size="11" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" text-anchor="end">SEC // 0x7E</text>
+    <!-- Easter Egg text positioned safely above the line -->
+    <text x="795" y="176" fill="#484f58" font-size="11" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" text-anchor="end">uid=0(root)</text>
   </g>
 
   <!-- Avatar Section -->
@@ -101,23 +101,20 @@
   </g>
 
   <!-- Typography -->
-  <!-- Name -->
   <g class="fade-d1">
     <text x="195" y="80" fill="#f0f6fc" font-size="42" font-weight="700" letter-spacing="-0.5px">s7mu</text>
   </g>
 
-  <!-- Focus Tagline -->
   <g class="fade-d2">
     <text x="195" y="112" fill="#58a6ff" font-size="16" font-weight="600">Cybersecurity &amp; Offensive Security</text>
     <text x="195" y="136" fill="#8b949e" font-size="13" font-weight="400">PrivSec • Linux Systems • CTF Player</text>
   </g>
 
-  <!-- Badges / Pills (Rock-solid absolute coordinates, perfect vertical centering) -->
+  <!-- Badges / Pills -->
   <g class="fade-d3">
     <!-- Pill 1: Spain -->
     <g>
       <rect x="195" y="160" width="92" height="28" rx="14" fill="#161b22" stroke="#30363d" stroke-width="1" />
-      <!-- Location pin icon centered: center x=210, center y=174 -->
       <path d="M 210 167.5 C 207.6 167.5 205.6 169.5 205.6 171.9 C 205.6 175.2 210 179.5 210 179.5 C 210 179.5 214.4 175.2 214.4 171.9 C 214.4 169.5 212.4 167.5 210 167.5 Z M 210 173.3 C 209.2 173.3 208.6 172.7 208.6 171.9 C 208.6 171.1 209.2 170.5 210 170.5 C 210.8 170.5 211.4 171.1 211.4 171.9 C 211.4 172.7 210.8 173.3 210 173.3 Z" fill="#f0883e" />
       <text x="223" y="174" dominant-baseline="central" fill="#c9d1d9" font-size="12" font-weight="500">Spain</text>
     </g>
@@ -125,7 +122,6 @@
     <!-- Pill 2: Offensive Security -->
     <g>
       <rect x="295" y="160" width="164" height="28" rx="14" fill="#161b22" stroke="#238636" stroke-width="1" />
-      <!-- Shield icon centered: center x=311, center y=174 -->
       <path d="M 311 166.5 L 317.5 169.5 L 317.5 174.5 C 317.5 178.5 314.5 181.5 311 182.5 C 307.5 181.5 304.5 178.5 304.5 174.5 L 304.5 169.5 Z" fill="none" stroke="#39d353" stroke-width="1.6" stroke-linejoin="round" />
       <text x="327" y="174" dominant-baseline="central" fill="#7ee787" font-size="12" font-weight="500">Offensive Security</text>
     </g>
@@ -133,7 +129,6 @@
     <!-- Pill 3: Linux Systems -->
     <g>
       <rect x="467" y="160" width="134" height="28" rx="14" fill="#161b22" stroke="#388bfd" stroke-width="1" />
-      <!-- Terminal prompt >_ icon centered: center x=482, center y=174 -->
       <path d="M 478 170 L 483 174 L 478 178 M 485 178 L 490 178" fill="none" stroke="#58a6ff" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" />
       <text x="499" y="174" dominant-baseline="central" fill="#a5d6ff" font-size="12" font-weight="500">Linux Systems</text>
     </g>
